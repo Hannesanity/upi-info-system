@@ -20,7 +20,7 @@
 .navbar-nav {
   margin-left: auto;
 }
-
+/* General Navbar Link Styling */
 .navbar-nav a {
   color: #fff;
   padding: 10px 15px;
@@ -29,17 +29,47 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Navbar Brand Image Styling */
 .navbar-brand img {
   width: 65px;
   margin-left: 10%;
 }
 
+/* Navbar Hover Effect */
 .navbar-nav a:hover {
   background-color: #00796b;
   color: #e0f7fa;
 }
 
+/* Navbar Active/Current Link */
 .navbar-nav a.active {
+  background-color: #00796b;
+  color: #e0f7fa;
+}
+
+/* Dropdown Menu Link Styling */
+.nav-item.dropdown .dropdown-menu a {
+  color: #00796b;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dropdown Menu Hover Effect */
+.nav-item.dropdown .dropdown-menu a:hover {
+  background-color: #00796b;
+  color: #e0f7fa;
+}
+
+/* Dropdown Menu Active Link Styling */
+.nav-item.dropdown .dropdown-menu a:focus,
+.nav-item.dropdown .dropdown-menu a:active {
+  background-color: #00796b;
+  color: #e0f7fa;
+}
+
+/* Dropdown Toggle When Open (Green Background & White Text) */
+.nav-item.dropdown .dropdown-toggle:focus,
+.nav-item.dropdown .dropdown-toggle:active {
   background-color: #00796b;
   color: #e0f7fa;
 }
